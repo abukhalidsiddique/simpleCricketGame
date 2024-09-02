@@ -1,0 +1,75 @@
+*
+{
+  box-sizing: borderbox;
+}
+body
+{
+   background-image: url('img1.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.res
+{
+   
+   
+  width: 20%;
+  text-align: center;
+  float: right;
+  color: red;
+  font-size: large;
+  font-weight: bold ;
+  height: 40%;
+  border: 3px;
+  margin-right: 150px;
+   
+   
+   
+}
+h1
+{
+  text-align: center;
+  color: red;
+}
+
+.container
+{
+  margin:  10% 10%; 
+  text-align: right;
+}
+.img
+{
+  float: center;
+  width:100%;
+  height:100%;
+  border: none;
+}
+button
+{
+  margin:10px;
+  width:100px;
+  height:100px;
+   background-color: white;
+   border-radius: 10%;
+}
+
+button:hover
+{
+  padding: 15px 27px;
+  
+  background-color: gold;
+}
+
+@media only screen and (max-width: 768px)
+         {
+            .res
+            {
+              width: 20%;
+            }
+
+            .container
+            {
+              display: flex;
+            }
+         }
+
+         

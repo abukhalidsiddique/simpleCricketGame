@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <h1>Simple Game</h1> 
+   <div class="container">
+        <button class="bat" onclick=
+        "   console.log('Your choice is Bat');
+         let choice=call();
+         let choice2='Bat';
+         result(choice2,choice); "
+        > <img class="img" src="bat.png" alt="Bat"></button>
+        <button class="ball" onclick=
+        "  console.log('Your choice is Ball');        
+           choice=call();
+           choice2='Ball';
+           result(choice2,choice); "       
+        ><img class="img" src="ball.png" alt="Ball"></button>
+        <button class="stump" onclick=
+        "  console.log('Your choice is Stump');
+           choice=call();
+           choice2='Stump';          
+           result(choice2,choice);"
+        ><img class="img" src="stump.png" alt="Stump"></button>
+        <button class="clear" onclick=
+        "
+        localStorage.clear();
+        location.reload();
+
+
+
+        "> <img class="img" class="img" src="reset.png" alt="Reset"></button>
+   </div>
+   <div class="res">
+       
+   </div>
+  <script src="index.js"></script>
+</body>
+</html>
